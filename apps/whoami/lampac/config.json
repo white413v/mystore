@@ -1,0 +1,29 @@
+{
+  "name": "Lampac",
+  "min_tipi_version": "4.0.0",
+  "available": true,
+  "port": 9118,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "lampac",
+  "description": "Сервер плагинов для Lampa: стриминг, торренты, DLNA, админ-панель. Поддержка онлайн-источников, 18+ контента и синхронизации.",
+  "tipi_version": 3,
+  "version": "1.0.0",
+  "categories": ["media"],
+  "short_desc": "Плагины и источники для медиаплеера Lampa на базе .NET Core.",
+  "author": "immisterio",
+  "source": "https://github.com/immisterio/Lampac",
+  "website": "https://github.com/immisterio/Lampac",
+  "form_fields": [
+    {
+      "type": "text",
+      "name": "lampac_config",
+      "label": "Дополнительная конфигурация init.conf (JSON-формат, опционально)",
+      "help": "Добавьте кастомные настройки, например: {\"multiaccess\": true, \"useproxy\": true}. По умолчанию — базовая.",
+      "default": "{}"
+    }
+  ],
+  "supported_architectures": ["arm64", "armv7", "amd64"],
+  "created_at": 1731062400000,
+  "updated_at": 1731062400000
+}
