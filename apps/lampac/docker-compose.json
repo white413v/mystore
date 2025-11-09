@@ -32,5 +32,5 @@
       }
     }
   ],
-  "initScript": "echo '${LAMPAC_CONFIG}' > ${APP_DATA_DIR}/config/init.conf"
+  "initScript": "echo '${LAMPAC_CONFIG}' > ${APP_DATA_DIR}/config/init.conf || true"
 }
